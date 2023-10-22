@@ -1,0 +1,87 @@
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 700px;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+    height: 600px;
+    width: 100%;
+    border-radius: 40px;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 15px 7px 0px;
+  
+    background-color: #c4c4c4;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }
+  
+  .part2{
+    display: flex;
+    background: linear-gradient(90deg,#0038b8 0%, white 20%, white 80%, #0038b8 100%);
+  }
+  .part2-left , .part2-right{
+     width: 50%;
+    display: flex; /* Use flexbox to align content vertically and horizontally */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    height: 90vh; 
+  }
+  .part2-right{
+    align-items: start;
+  }
+  .part2-right .sentence-1 , .part2-right .sentence-2{ 
+    font-size: 30px;
+    max-width: 700px;
+    padding: 20px;
+    text-align: start;
+  }
+
+  .plant{
+    border-radius: 50%;
+    width: 450px;
+    
+    margin-left: 200px;
+  }
+  h4{
+    max-width: 700px;
+    font-size: x-large;
+    text-wrap: pretty;
+  }
+  .title{
+    /* width: 100%; */
+    text-align: center;
+  }
+  .title h1{
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 0px;
+    font-size: 48px;
+  }

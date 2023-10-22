@@ -1,0 +1,41 @@
+/* src/components/DonationPage.css */
+
+.donation-page {
+    text-align: center;
+    padding: 20px;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; 
+    height: 80vh;
+  }
+  
+  .donation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* max-width: 800px; */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; 
+    gap: 20px;
+  }
+  
+  .mb-3 {
+    justify-content: center; /* Vertically center content */
+    align-items: center; 
+    margin: auto;
+  }
+  .input-group-text{
+    width: 150px;
+  }
+ .donation-page  input{
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 200, 0.5);
+
+  }
+  /* input, button {
+    margin: 10px;
+    padding: 10px;
+  } */
+  
