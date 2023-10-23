@@ -21,7 +21,8 @@ const Nav = ({ index, item, offset, duration, delay, moveNavs, width, linkClass,
                 offset={offset}
                 duration={duration}
                 isDynamic={true}
-                delay={delay}>
+                delay={delay}
+                style={{fontSize:"20px"}}>
                 {item.label}
             </Link>
         </li>

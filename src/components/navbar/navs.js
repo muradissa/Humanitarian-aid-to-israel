@@ -5,7 +5,7 @@ import Nav from './nav';
 
 let currIndex = null;
 let nextIndex = 0;
-const DEFAULT_NAV_WIDTH = 86;
+const DEFAULT_NAV_WIDTH = 150;
 
 const Navs = ({ items, offset, duration, delay, coverWidth, navWidth, linkClass, activeLinkClass }) => {
     navWidth = navWidth ? navWidth : DEFAULT_NAV_WIDTH;
